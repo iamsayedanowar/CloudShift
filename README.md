@@ -1,3 +1,5 @@
+![CloudShift](https://raw.githubusercontent.com/iamsayedanowar/CloudShift/refs/heads/main/GRP.png)
+
 # CloudShift
 
 **CloudShift** is a modern cloud storage solution built with **React**, **Vite**, and **Shadcn UI**, **Appwrite** for backend authentication and **ImageKit** for optimized media storage and delivery.
