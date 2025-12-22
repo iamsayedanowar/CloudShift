@@ -7,7 +7,7 @@ import { Logo } from "@/assets/logo";
 export default function LandingPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/20 flex flex-col items-center w-full">
+        <div className="min-h-full bg-background text-foreground font-sans selection:bg-primary/20 flex flex-col items-center w-full">
             <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 flex justify-center">
                 <div className="container px-4 md:px-8 h-16 flex items-center justify-between w-full max-w-7xl">
                     <div className="flex items-center gap-2 font-bold text-xl tracking-tight">

@@ -5,6 +5,7 @@ import { account, OAuthProvider } from "@/lib/appwrite";
 export const handleOAuthLogin = () => {
     account.createOAuth2Session({
         provider: OAuthProvider.Google,
-        success: 'http://localhost:5173/drive/home',
+        success: 'https://cloud-shift.vercel.app/drive/home',
+        // success: 'http://localhost:5173/drive/home',
     });
 };

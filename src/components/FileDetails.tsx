@@ -63,7 +63,7 @@ export const FileDetails = ({ open, onOpenChange, file }: FileDetailsType) => {
     };
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="w-screen h-screen sm:h-[90%] max-w-none rounded-none sm:rounded-lg sm:max-w-6xl overflow-auto no-scrollbar">
+            <DialogContent className="w-full h-full sm:h-[90%] max-w-none rounded-none sm:rounded-lg sm:max-w-6xl overflow-auto no-scrollbar">
                 <DialogHeader className="border-b pb-2">
                     <DialogTitle>
                         File Details

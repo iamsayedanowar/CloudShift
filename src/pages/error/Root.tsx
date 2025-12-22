@@ -8,7 +8,7 @@ export const RootError = () => {
     const navigate = useNavigate();
 
     return (
-        <section className="flex min-h-screen items-start bg-background py-16 md:items-center md:py-24">
+        <section className="flex min-h-full items-start bg-background py-16 md:items-center md:py-24">
             <div className="mx-auto max-w-container grow px-4 md:px-10">
                 <div className="w-full max-w-3xl space-y-8 md:space-y-12">
                     <div className="space-y-4 md:space-y-6">
