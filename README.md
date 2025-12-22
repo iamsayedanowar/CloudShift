@@ -2,16 +2,12 @@
 
 **CloudShift** is a modern cloud storage solution built with **React**, **Vite**, and **Shadcn UI**, **Appwrite** for backend authentication and **ImageKit** for optimized media storage and delivery.
 
----
-
 ## Features
 
 - **Secure Authentication**: Google OAuth integration via Appwrite.  
 - **File Management**: Upload, view, and manage files securely.  
 - **Media Optimization**: Real-time image optimization and delivery using ImageKit.  
 - **Modern UI**: Clean and responsive interface built with Shadcn UI and Tailwind CSS.
-
----
 
 ## Tech Stack
 
@@ -28,8 +24,6 @@
 **Storage**
 - ImageKit API
 
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -40,8 +34,6 @@ Make sure you have:
 - An Appwrite account
 - An ImageKit account
 - A Google Cloud account (for OAuth)  
-
----
 
 ## Installation
 
@@ -70,8 +62,6 @@ VITE_IMAGEKIT_URL_ENDPOINT = "https://ik.imagekit.io/YOUR_IMAGEKITID"
 ```bash
 npm run dev
 ```
-
----
 
 ## Configuration Guide
 

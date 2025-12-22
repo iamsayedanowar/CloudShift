@@ -183,7 +183,7 @@ export default function LandingPage() {
                     <div className="flex gap-6 text-sm text-muted-foreground">
                         <a href="#" className="hover:text-foreground">Privacy</a>
                         <a href="#" className="hover:text-foreground">Terms</a>
-                        <a href="#" className="hover:text-foreground">GitHub</a>
+                        <a href="https://github.com/iamsayedanowar/CloudShift" target="_blank" className="hover:text-foreground">GitHub</a>
                     </div>
                 </div>
             </footer>
