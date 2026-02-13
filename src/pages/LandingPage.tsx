@@ -19,7 +19,6 @@ export default function LandingPage() {
                     <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
                         <a href="#features" className="hover:text-foreground transition-colors">Features</a>
                         <a href="#security" className="hover:text-foreground transition-colors">Security</a>
-                        {/* <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a> */}
                     </div>
                     <div className="hidden md:flex items-center gap-4">
                         <Link to="/auth/login">
@@ -174,7 +173,7 @@ export default function LandingPage() {
             <footer className="border-t py-12 bg-background w-full flex justify-center">
                 <div className="container px-4 flex flex-col md:flex-row justify-between items-center gap-6 w-full max-w-7xl">
                     <div className="flex items-center gap-2 font-semibold">
-                        <Logo variant='icon' className="size-6" />
+                        <Logo variant='icon' />
                         <span>CloudShift</span>
                     </div>
                     <p className="text-sm text-muted-foreground">
